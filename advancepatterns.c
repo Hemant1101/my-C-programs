@@ -1,3 +1,7 @@
+// author: Hemant1101
+// lang: C
+// topic: advanced patterns
+
 /*
 pattern:
 
