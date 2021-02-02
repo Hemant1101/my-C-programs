@@ -1,3 +1,7 @@
+// author:Hemant1101
+// lang: C
+// topic: reversing an array
+
 #include <stdio.h>
 
 void arrrev(int arr[])
