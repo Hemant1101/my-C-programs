@@ -1,3 +1,7 @@
+// author:Hemant1101
+// lang: C
+// topic: Implementation of Binary tree and it's travarsals
+
 #include <stdio.h>
 #include <stdlib.h>
 
@@ -8,6 +12,7 @@ struct binarytree
     struct binarytree *right;
 };
 
+// creattion of binary tree
 struct binarytree *create()
 {
     struct binarytree *newnode;
@@ -25,6 +30,7 @@ struct binarytree *create()
     return newnode;
 }
 
+// preorder travarsal
 void preorder(struct binarytree *root)
 {
     if (root == NULL)
@@ -36,6 +42,7 @@ void preorder(struct binarytree *root)
     preorder(root->right);
 }
 
+// inorder travarsal
 void inorder(struct binarytree *root)
 {
     if (root == NULL)
@@ -47,6 +54,7 @@ void inorder(struct binarytree *root)
     inorder(root->right);
 }
 
+// postorder travarsal
 void postorder(struct binarytree *root)
 {
     if (root == NULL)
