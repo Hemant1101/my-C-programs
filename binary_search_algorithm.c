@@ -1,3 +1,7 @@
+// author:Hemant1101
+// lang: C
+// topic: Implementation of Binary Search Algorithm
+
 #include <stdio.h>
 int main()
 {
