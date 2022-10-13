@@ -1,2 +1,2 @@
 # my-C-programs
-It is a collection of codes , I have been practicing in C-language.
+It is a collection of codes that, I have been practicing in C-language.
